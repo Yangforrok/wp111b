@@ -30,4 +30,5 @@ div {
     padding: 15px;
     border: 6px solid gray;
     margin: auto;
-  }
+    text-align: center;
+}
