@@ -7,5 +7,5 @@ function fibonacci(n){
     }
     else return fibonacci(n-1)+fibonacci(n-2);
 }
-console.log(isPrime(7));
-console.log(isPrime(1));
+console.log(fibonacci(7));
+console.log(fibonacci(1));
