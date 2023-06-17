@@ -31,14 +31,12 @@ let pages = {
       <br><br>
       <input type="submit" value="登入">
       <input type="reset" value="重新輸入">
-  </form>
-  `,
+  </form>`,
   '#logout': `
   <h1>登出</h1>
-  <p>請確定是否登出</p>
+  <p>是否要登出?</p>
   <input type="submit" value="是">
-  <input type="submit" value="否">
-  `,
+  <input type="submit" value="否">`,
   '#signup': `
   <h1>註冊</h1>
   <form>
@@ -62,8 +60,7 @@ let pages = {
       <br><br>
       <input type="submit" value="註冊">
       <input type="reset" value="重新輸入">
-  </form>
-  `
+  </form>`
 }
 
 window.onhashchange = function () {
